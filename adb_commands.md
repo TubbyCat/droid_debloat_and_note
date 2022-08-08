@@ -52,13 +52,21 @@ adb shell pm uninstall --user 0
 # if NO ROOT ON PHONE: must specify --user 0
 # this removal is temporary, such that Over-The-Air updates / factory reset can restore removed package(s)
 # therefore, having a debloating script is useful. Post-update simply run the script to remove bloatware. 
-
-## If root available simply su to root user and remove permanently
 ```
+- **Uninstall While Preserving User Data & Cache**
+```sh
+pm uninstall -k 
+# inside shell
+adb shell pm uninstall -k 
+# Outside phone's shell
+# as above can specify --user 0 | adb shell pm uninstall -k --user 0 
+```
+**If root available simply su to root user and remove permanently**
+
 ## Package Analysis ##
 ```sh
 adb shell dumpsys package com.foo.bar
-adb shell dumpsys package com.foo.bar | grep $ofinterest 
+adb shell dumpsys package com.foo.bar | grep $ofinterest #accepts regex
 ```
 
 - Again, this is a summary. 
