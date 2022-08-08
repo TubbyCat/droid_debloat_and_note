@@ -1,0 +1,5 @@
+com.google.android.apps.searchlite
+  #google go lightweight search 
+
+zpub.res
+
