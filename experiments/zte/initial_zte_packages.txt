@@ -9,7 +9,10 @@
 ## PACKAGE LIST PULLED FROM TEST DEVICE. ##
 ## RAW NOTES ##
 
-
+zpub.res
+  #?? fx = 3-party app preinstalled in ZTE phone
+  # above desc according to UAD - https://github.com/0x192/universal-android-debloater
+  
 cn.zte.recorder
   #xx fx = voice recorder. Replace with open source.
 
