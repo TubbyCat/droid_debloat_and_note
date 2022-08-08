@@ -1,0 +1,99 @@
+#Copyright © 2022-2023 TubbyCat
+---------------------------------------------------
+# fx = shorthand for function
+
+# !! = UNREMOVABLE PACKAGE
+# xx = REMOVABLE.
+# ?? = Further research into apk needed. 
+---------------------------------------------------
+## PACKAGE LIST PULLED FROM TEST DEVICE. ##
+## RAW NOTES ##
+
+
+cn.zte.recorder
+  #xx fx = voice recorder. Replace with open source.
+
+com.zte.weather
+  #xx fx = weather app. Replace with open source. 
+
+#!!?? com.zte.thermald
+ # fx likely SoC thermal watchdog daemon.  
+
+# ?? com.zte.beautify
+
+com.zte.zdm.omacp
+  # ??. Removed on test device without overt problems.
+  #Android has some history of omacp associated CVEs, thereby warranting some scrutiny into this package.
+
+com.zte.videoplayer
+  #xx video viewer. Replace with open source, popular equivalent.
+
+#!!?? com.android.networkstack.inprocess_zte.overlay
+  # Unknown fx. Assume unsafe to remove.
+  
+#?? com.zte.emode
+  #Engineering mode
+  #Removal untested
+  #some concern, see: https://github.com/hackerhouse-opensource/exploits/blob/master/zte-emode.txt
+
+#!!?? com.zte.mifavor.launcher.resource
+  # fx = ZTE GUI.Theoretically replaceable with alternative launcher/gui.
+  # Need research. Minimal/no documentation. 
+
+#!!?? com.android.wifi.resources_zte.overlay
+#!!?? com.zte.mifavor.launcher.adapter
+  # fx = ZTE GUI.Theoretically replaceable with alternative launcher/gui.
+  # Need research. Minimal/no documentation. 
+com.zte.assistant
+  # fx = voice assistant by zte?
+  # xx removable without overt issues on test device
+  
+#!!?? com.zte.zdmdaemon
+  # unknown function. no clear documentation. Infer/Guess zdm means zte display manager?
+
+#!!?? zte.framework.res.commonoverlay
+  #unknown function. need research. 
+  
+#!!?? com.android.networkstack.tethering.inprocess_zte.overlay
+  # sounds important from apk name alone. need research. 
+  
+#!!?? androidzte
+  # no clue.
+  
+#!!?? com.zte.zdmdaemon.install
+  # Unknown function. Name implies related to zdm. 
+  
+com.zte.heartyservice.strategy
+  # ??xx Unknown function. Removed w/o problem on test device. 
+
+#!!?? com.zte.mifavor.launcher
+  # fx = gui
+  #?? need more research. theoretically removable if launcher/gui replacement sideloaded.
+  # tentative do not remove
+
+com.zte.burntest.camera
+  #??xx unknown function. Removed without problem on test device. 
+  
+#!!?? com.zte.zdm
+#!!?? com.zte.appsimcardfilter
+
+com.zte.contacts.sub
+  #?? Need research on function. Removed safely on test device. 
+#!!?? com.zte.ztegmssetupwizard
+  # fx associated with gms. Need research.
+com.zte.privacypolicy
+  #xx fx = privacy policy, popup. Bloatware. 
+################################################################################################
+################################################################################################
+
+## Tentative list of packages cleared for removal from test device
+
+cn.zte.recorder
+com.zte.weather
+com.zte.zdm.omacp
+com.zte.videoplayer
+com.zte.assistant
+com.zte.heartyservice.strategy
+com.zte.burntest.camera
+com.zte.contacts.sub
+com.zte.privacypolicy
