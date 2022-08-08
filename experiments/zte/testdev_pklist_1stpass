@@ -1,4 +1,5 @@
 # pkg list following first-pass debloat
+# yes, the name is stolen from pharmacology. 
 com.mediatek.gba
 com.mediatek.ims
 com.android.cts.priv.ctsshim
