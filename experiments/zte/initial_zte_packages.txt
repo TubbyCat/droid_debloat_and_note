@@ -12,6 +12,7 @@
 zpub.res
   #?? fx = 3-party app preinstalled in ZTE phone
   # above desc according to UAD - https://github.com/0x192/universal-android-debloater
+  # has ability to send mms, call forward.  requests 'RECIEVE_BOOT_COMPLETED" 
   
 cn.zte.recorder
   #xx fx = voice recorder. Replace with open source.
@@ -22,8 +23,11 @@ com.zte.weather
 #!!?? com.zte.thermald
  # fx likely SoC thermal watchdog daemon.  
 
-# ?? com.zte.beautify
-
+ com.zte.beautify
+  # wallpaper app
+  # xx Note: requests requests ACCESS_NETWORK_STATE & QUERY_ALL_PACKAGES + unknown but SUSPICIOUS reuqest "launchermfv.permission. USE_ONLINE_RECEIVER" according to Stanley apk (src : https://f-droid.org/en/packages/fr.xgouchet.packageexplorer/)
+  # removed without incident. may require alternate app if one wishes to alter wallpaper following removal of com.zte.beautify
+  
 com.zte.zdm.omacp
   # ??. Removed on test device without overt problems.
   #Android has some history of omacp associated CVEs, thereby warranting some scrutiny into this package.
@@ -53,7 +57,8 @@ com.zte.assistant
   
 #!!?? com.zte.zdmdaemon
   # unknown function. no clear documentation. Infer/Guess zdm means zte display manager?
-
+  # has ability to reset to factory, reboot system etc
+  
 #!!?? zte.framework.res.commonoverlay
   #unknown function. need research. 
   
@@ -76,7 +81,8 @@ com.zte.heartyservice.strategy
   # tentative do not remove
 
 com.zte.burntest.camera
-  #??xx unknown function. Removed without problem on test device. 
+  #??xx unknown function. 
+  # Removed without problem on test device. 
   # possibly fx as camera stress test
   
 #!!?? com.zte.zdm
@@ -102,3 +108,4 @@ com.zte.heartyservice.strategy
 com.zte.burntest.camera
 com.zte.contacts.sub
 com.zte.privacypolicy
+com.zte.beautify
