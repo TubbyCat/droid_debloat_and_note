@@ -6,8 +6,8 @@
 com_android_list=(
 com.android.chrome
 com.android.egg
-com.android.printspooler
-com.android.bips
+com.android.printspooler #kills printing. could have yes/no prompt but i don't care
+com.android.bips # kills printing
 com.android.bluetoothmidiservice
 com.android.traceur
 com.android.aftersaleservice
