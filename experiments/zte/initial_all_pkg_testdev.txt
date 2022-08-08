@@ -2,6 +2,7 @@
 # OS = Android GO
 com.mediatek.gba
 com.mediatek.ims
+  #carrier services. Do not remove.
 com.android.cts.priv.ctsshim
 com.google.android.youtube
 com.android.internal.display.cutout.emulation.corner
@@ -218,6 +219,5 @@ com.android.theme.icon_pack.rounded.settings
 framework.res.poweroverlay
 com.google.android.overlay.gmsconfig.go
 com.google.android.inputmethod.latin
-framework.res.localeverlay_FM_CA
 com.android.theme.icon_pack.circular.android
 com.google.android.apps.restore
