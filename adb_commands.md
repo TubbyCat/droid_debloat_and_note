@@ -1,4 +1,5 @@
 Copyright © 2022-2023 TubbyCat
+
 See CREDIT and MIT files for elaborated copyright information.
 
 
@@ -12,7 +13,10 @@ This is a summary. The upstream documentation, in my opinion, is needlessly dens
   
 ***Following commands are essential for android debloat and consequent install of desired software.***
 
-**Note:** For all commands listed bellow "adb shell" can be excluded if you are already inside your phone's commandline shell and are executing commands therein. Adb shell $command is useful for scripts executed outside of the phone's shell.
+**Note:** For all commands listed bellow "adb shell" can be excluded if you are already inside your phone's commandline shell and are executing commands therein.
+
+Adb shell $command is useful for scripts executed outside of the phone's shell.
+
 ## Listing Packages ##
 - **list packages in format** "_package:com.hopefully.a.backdoor_"
   ```sh
@@ -38,9 +42,9 @@ This is a summary. The upstream documentation, in my opinion, is needlessly dens
   ```
 
 - **List package location**
-```sh
-adb shell pm -f com.foo.bar
-```
+  ```sh
+  adb shell pm -f com.foo.bar
+  ```
 ## Uninstalling Packages ##
 ```sh
 adb shell pm --uninstall --user 0
@@ -50,6 +54,11 @@ adb shell pm --uninstall --user 0
 # therefore, having a debloating script is useful. Post-update simply run the script to remove bloatware. 
 
 ## If root available simply su to root user and remove permanently
+```
+## Package Analysis ##
+```sh
+adb shell dumpsys package com.foo.bar
+adb shell dumpsys package com.foo.bar | grep $ofinterest 
 ```
 
 - Again, this is a summary. 
