@@ -1,5 +1,10 @@
 # pkg list following first-pass debloat
 # yes, the name is stolen from pharmacology. 
+
+#!! = unremovable
+# ?? = need research 
+# x2 = to be removed on second pass
+
 com.mediatek.gba
 com.mediatek.ims
 com.android.cts.priv.ctsshim
@@ -63,7 +68,8 @@ com.android.internal.systemui.navbar.threebutton
 com.zte.emode
 android
 com.android.theme.icon_pack.rounded.launcher
-com.android.mtp
+#!! com.android.mtp 
+  #need mtp for file transfer
 com.android.ons
 com.android.stk
 com.android.backupconfirm
@@ -72,7 +78,9 @@ com.google.android.overlay.gmsconfig.common
 com.zte.mifavor.launcher.resource
 com.android.settings.intelligence
 com.mediatek.frameworkresoverlay
-com.debug.loggerui
+
+#?? com.debug.loggerui
+
 com.google.android.apps.searchlite
 com.android.internal.systemui.navbar.gestural_extra_wide_back
 com.android.vendorlogpermission
@@ -171,7 +179,11 @@ com.android.theme.color.orchid
 com.android.systemui
 com.android.theme.color.purple
 com.zte.ztegmssetupwizard
+
 zpub.res
+ # x2 
+ 
+ 
 com.android.bluetooth
 com.android.wallpaperpicker
 com.android.providers.contacts
@@ -180,6 +192,6 @@ com.android.internal.systemui.navbar.gestural_narrow_back
 com.android.theme.icon_pack.rounded.settings
 framework.res.poweroverlay
 com.google.android.overlay.gmsconfig.go
-framework.res.localeverlay_FM_CA
+
 com.android.theme.icon_pack.circular.android
 com.google.android.apps.restore
