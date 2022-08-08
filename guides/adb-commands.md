@@ -41,7 +41,7 @@ Adb shell $command is useful for scripts executed outside of the phone's shell.
 
 - **List package location**
   ```sh
-  adb shell pm -f com.foo.bar
+  adb shell pm path com.foo.bar
   ```
 ## Uninstalling Packages ##
 ```sh
