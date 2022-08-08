@@ -10,9 +10,10 @@
 ## RAW NOTES ##
 
 zpub.res
-  #?? fx = 3-party app preinstalled in ZTE phone
+  #??xx fx = 3-party app preinstalled in ZTE phone
   # above desc according to UAD - https://github.com/0x192/universal-android-debloater
   # has ability to send mms, call forward.  requests 'RECIEVE_BOOT_COMPLETED" 
+  # removed without issue
   
 cn.zte.recorder
   #xx fx = voice recorder. Replace with open source.
@@ -42,7 +43,8 @@ com.zte.videoplayer
   #Engineering mode
   #Removal untested
   #some concern, see: https://github.com/hackerhouse-opensource/exploits/blob/master/zte-emode.txt
-
+  # requests immense permissions.
+  
 #!!?? com.zte.mifavor.launcher.resource
   # fx = ZTE GUI.Theoretically replaceable with alternative launcher/gui.
   # Need research. Minimal/no documentation. 
