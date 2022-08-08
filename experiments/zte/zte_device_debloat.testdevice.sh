@@ -23,6 +23,6 @@ zpub.res
 )
 
 caution 
-for i in ${rmv_list[@]}; do 
-adb shell pm uninstall --user 0 $i" 
+for x in ${rmv_list[@]}; do 
+adb shell pm uninstall --user 0 $x
 done
