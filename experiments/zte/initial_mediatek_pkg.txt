@@ -1,0 +1,34 @@
+## Many of these = UNREMOVABLE with high confidence. 
+
+com.mediatek.gba
+com.mediatek.ims
+com.mediatek.telephony
+com.mediatek.location.lppe.main
+com.mediatek.SettingsProviderResOverlay
+com.mediatek.gnss.nonframeworklbs
+com.mediatek.systemuiresoverlay
+com.mediatek.engineermode
+com.mediatek.frameworkresoverlay
+
+#!! com.mediatek
+  # critical system pkg. DO NOT REMOVE.
+
+com.mediatek.duraspeed
+  #Android GO for mediatek CPU package. Resource management. Comparable to NetGuard. Keep.
+  # REMOVAL UNTESTED
+  
+com.mediatek.atci.service
+  #possibly FM radio svc src: https://www.askmefast.com/What_is_commediatekatciservice_on_android-qna7979699.html
+  #Unknown if removable.
+  #??!! 
+com.mediatek.capctrl.service
+
+com.mediatek.callrecorder
+  # fx = call recording feature. 
+  # keep. 
+  # removal untested
+  
+com.mediatek.lbs.em2.ui
+  #gps related settings 4 engineer mode 
+  #see: https://forum.xda-developers.com/t/bloatware-you-can-freeze-remove.3314330/. 
+  # discretionary removal. UNTESTED
