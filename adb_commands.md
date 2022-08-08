@@ -59,7 +59,7 @@ pm uninstall -k
 # inside shell
 adb shell pm uninstall -k 
 # Outside phone's shell
-# as above can specify --user 0 | adb shell pm uninstall -k --user 0 
+# as above can specify --user 0. e.g. adb shell pm uninstall -k --user 0 
 ```
 **If root available simply su to root user and remove permanently**
 
