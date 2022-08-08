@@ -7,7 +7,6 @@ Copyright © 2022-2023 TubbyCat
 - Device/Brand raises security questions. 
 
    - _See:_ 
-  https://www.zdnet.com/article/samsung-huawei-lg-and-sony-phones-vulnerable-to-rogue-provisioning-messages/
   https://github.com/hackerhouse-opensource/exploits/blob/master/zte-emode.txt
   https://www.zdnet.com/article/backdoor-found-in-zte-android-phones/
 
