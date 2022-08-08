@@ -63,6 +63,14 @@ adb shell pm uninstall -k
 ```
 **If root available simply su to root user and remove permanently**
 
+## Installing APKs ##
+```sh
+#from OUTSIDE phone's shell 
+
+adb install ./abc.apk 
+adb -d install ./abc.apk
+  #ideal for USB based android debug connection. 
+```
 ## Package Analysis ##
 ```sh
 adb shell dumpsys package com.foo.bar
