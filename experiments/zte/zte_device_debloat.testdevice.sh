@@ -19,6 +19,7 @@ com.zte.heartyservice.strategy
 com.zte.burntest.camera
 com.zte.contacts.sub
 com.zte.privacypolicy
+zpub.res
 )
 
 caution 
