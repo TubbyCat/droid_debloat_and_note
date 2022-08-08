@@ -10,6 +10,8 @@ sleep 1
 }
 
 rmv_list=(
+
+com.zte.beautify
 cn.zte.recorder
 com.zte.weather
 com.zte.zdm.omacp
