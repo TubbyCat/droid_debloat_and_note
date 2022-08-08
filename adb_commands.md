@@ -47,7 +47,7 @@ Adb shell $command is useful for scripts executed outside of the phone's shell.
   ```
 ## Uninstalling Packages ##
 ```sh
-adb shell pm --uninstall --user 0
+adb shell pm uninstall --user 0
 
 # if NO ROOT ON PHONE: must specify --user 0
 # this removal is temporary, such that Over-The-Air updates / factory reset can restore removed package(s)
