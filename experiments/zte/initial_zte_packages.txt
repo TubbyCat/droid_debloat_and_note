@@ -68,6 +68,7 @@ com.zte.assistant
   
 com.zte.heartyservice.strategy
   # ??xx Unknown function. Removed w/o problem on test device. 
+  # Appears to be related to powersaving. Cf. https://forums.whirlpool.net.au/archive/2619618 ; https://forum.xda-developers.com/t/auto-close-apps.3461117/page-4 
 
 #!!?? com.zte.mifavor.launcher
   # fx = gui
