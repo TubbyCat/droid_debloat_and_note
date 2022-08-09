@@ -55,7 +55,7 @@ com.zte.privacypolicy
 zpub.res
 )
 
-caution 
-for x in ${rmv_list[@]}; do 
-adb shell pm uninstall --user 0 $x
+caution
+for x in ${rmv_list[@]}; do
+adb shell pm uninstall --user 0 $x && echo $x >> zte_pkg.debloated.$(date +"%m_%d_%Y-%T").success
 done
