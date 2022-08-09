@@ -1,5 +1,16 @@
 # Initial Package List zte test device. 
 # OS = Android GO
+
+#Theme related, removal as exercise for user
+com.android.theme.color.green
+com.android.theme.color.ocean
+com.android.theme.color.space
+com.android.theme.icon_pack.circular.themepicker
+com.android.theme.color.black
+com.android.theme.icon_pack.rounded.launcher
+com.android.theme.icon_pack.rounded.android
+
+
 com.mediatek.gba
 com.mediatek.ims
   #carrier services. Do not remove.
@@ -12,6 +23,11 @@ com.android.internal.display.cutout.emulation.double
 com.android.providers.telephony
 com.android.dynsystem
 com.android.theme.icon.pebble
+com.android.theme.icon.vessel
+com.android.theme.icon_pack.rounded.systemui
+com.android.theme.color.cinnamon
+
+com.android.theme.icon.taperedrect
 com.android.providers.calendar
 com.mediatek.telephony
 com.android.providers.media
@@ -21,15 +37,12 @@ com.google.android.ext.shared
 com.android.internal.systemui.navbar.gestural_wide_back
 com.mediatek.location.lppe.main
 com.android.wallpapercropper
-com.android.theme.icon.vessel
-com.android.theme.color.cinnamon
+
 com.mediatek.SettingsProviderResOverlay
 com.mediatek.gnss.nonframeworklbs
 com.mediatek.systemuiresoverlay
 com.google.android.apps.cameralite
-com.android.theme.icon_pack.rounded.systemui
 com.android.networkstack.tethering.inprocess.overlay
-com.android.theme.icon.taperedrect
 com.android.wifi.resources.overlay
 com.android.documentsui
 cn.zte.recorder
@@ -43,11 +56,9 @@ com.google.android.apps.messaging
 com.android.networkstack.inprocess
 com.google.android.networkstack.tethering.overlay
 com.mediatek.engineermode
-com.android.theme.icon_pack.rounded.android
 com.zte.beautify
 com.android.aftersaleservice
 com.android.networkstack.inprocess.overlay
-com.android.theme.icon_pack.circular.themepicker
 com.google.android.configupdater
 com.zte.zdm.omacp
 com.zte.videoplayer
@@ -61,16 +72,12 @@ com.android.internal.display.cutout.emulation.hole
 com.android.internal.display.cutout.emulation.tall
 com.android.networkstack.overlay
 com.android.certinstaller
-com.android.theme.color.black
+
 com.android.carrierconfig
 com.google.android.marvin.talkback
-com.android.theme.color.green
-com.android.theme.color.ocean
-com.android.theme.color.space
 com.android.internal.systemui.navbar.threebutton
 com.zte.emode
 android
-com.android.theme.icon_pack.rounded.launcher
 com.android.egg
 com.android.mtp
 com.android.ons
