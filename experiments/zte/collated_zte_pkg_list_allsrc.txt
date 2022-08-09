@@ -14,7 +14,27 @@ com.zte.contacts.sub
 com.zte.privacypolicy
 zpub.res            # still some questions about breakage
 
+## testdev - other
+# of interest, presently unremovable
+com.zte.emode
+#com.mediatek.lbs.em2.ui  
+  # emode related uncorroborated xdadevelopers post. 
+  #certainly gps related https://gitlab.com/SahilSonar/mediatek-alps/-/tree/eb9041849fcd7c496cfebd389a657850bf16fd8f/LocationEM2
 
+com.zte.zdmdaemon
+com.zte.zdmdaemon.install
+
+  #guirelated "mifavor"
+com.zte.mifavor.launcher
+com.zte.mifavor.launcher.resource
+com.zte.mifavor.launcher.adapter
+
+zte.framework.res.commonoverlay
+com.android.networkstack.inprocess_zte.overlay
+com.android.wifi.resources_zte.overlay
+
+
+##################################################################################################
 ### websources, misc. scraped, found otherwise
 
 
