@@ -15,7 +15,8 @@ com.mediatek.frameworkresoverlay
 
 com.mediatek.duraspeed
   #Android GO for mediatek CPU package. Resource management. Comparable to NetGuard. Keep.
-  # REMOVAL UNTESTED
+  # REMOVAL UNTESTED 
+  # https://gitlab.com/SahilSonar/mediatek-alps/-/tree/master/duraspeed
   
 com.mediatek.atci.service
   #possibly FM radio svc src: https://www.askmefast.com/What_is_commediatekatciservice_on_android-qna7979699.html
@@ -29,6 +30,7 @@ com.mediatek.callrecorder
   # removal untested
   
 com.mediatek.lbs.em2.ui
-  #gps related settings 4 engineer mode 
-  #see: https://forum.xda-developers.com/t/bloatware-you-can-freeze-remove.3314330/. 
+  #gps related settings https://gitlab.com/SahilSonar/mediatek-alps/-/tree/eb9041849fcd7c496cfebd389a657850bf16fd8f/LocationEM2
+  #see: https://forum.xda-developers.com/t/bloatware-you-can-freeze-remove.3314330/. - uncorroborated
   # discretionary removal. UNTESTED
+  
