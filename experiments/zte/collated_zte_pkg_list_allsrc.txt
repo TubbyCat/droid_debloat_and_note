@@ -1,2 +1,69 @@
 #collated list of zte packages / bloatware from various sources. 
 
+# src testdev -- removable 
+
+com.zte.beautify
+cn.zte.recorder
+com.zte.weather
+com.zte.zdm.omacp     # still some questions about breakage
+com.zte.videoplayer
+com.zte.assistant
+com.zte.heartyservice.strategy   # pkill-esque power mgr 
+com.zte.burntest.camera
+com.zte.contacts.sub
+com.zte.privacypolicy
+zpub.res            # still some questions about breakage
+
+
+### websources, misc. scraped, found otherwise
+
+
+# camera voice video music
+com.zte.camera
+com.zte.mirrorcamera
+com.zte.voicesecretary
+com.zte.softda
+cn.zte.music
+# com.android.ztescreenshot  # ! may break screenshot capability
+
+#tools misc
+zte.com.cn.alarmclock
+com.moji.zteweather
+com.icoolme.bestweather
+zte.android.flashlight
+zte.com.market
+zte.com.cn.filer   # file mgr
+zte.com.game
+zte.com.cn.cloudnotepad
+com.zte.smartpay              #untested on phys HW
+cn.com.zte.app.redenvelope    # ""
+cn.com.zte.android.teamshare  #untested on phys HW
+cn.com.zte.mobilemail
+com.baidu.BaiduMap.zte
+com.autonavi.minimap.carmode  
+org.zx.AuthComp        # untested, little record of existence
+
+# net / web 
+com.ume.browser.cust
+cuuca.sendfiles.Activity # weshare
+cn.com.zte.app.zel  # untested, may be related to zlink 
+
+
+
+#power saving
+com.zte.powersavemode  # removal untested
+
+# Help
+com.zte.UserHelp
+com.zte.handservice
+com.zte.privacyzone
+com.zte.backup.mmi  # untested on phys HW 
+cn.com.zte.zxmreader
+
+# com.zte.allowance   # questionable info about this being related to UI. 
+com.android.mipop     # ZTE user-navigation gimmick
+
+cn.com.zte.tescobag   #unconfirmed
+zte.com.cn.jr.magzine #unconfirmed not a typo
+com.zte.positionenglish  # possibly gps related , unconfirmed, remove w caution
+
