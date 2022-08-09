@@ -198,6 +198,7 @@ com.android.providers.media.module
 com.android.emergency
 com.android.hotspot2.osulogin
 com.google.android.gms.location.history
+  #xx google location history 
 com.android.internal.systemui.navbar.gestural
 com.android.location.fused
 com.android.theme.color.orchid
