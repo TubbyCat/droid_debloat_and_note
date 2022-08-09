@@ -10,5 +10,5 @@
 echo "Debloating APKTYPEPLACEHOLDER"
 
 for x in ${~REMOVAL_LIST_PLACEHOLDER~[@]}; do 
-adb shell pm uninstall --user 0 $x && echo $x >> APKTYPEPLACEHOLDER.debloated.$(date +"%m_%d_%Y").success
+adb shell pm uninstall --user 0 $x && echo $x >> APKTYPEPLACEHOLDER.debloated.$(date +"%m_%d_%Y-%T").success
 done
