@@ -3,3 +3,8 @@ com.google.android.apps.searchlite
 
 zpub.res
 
+com.zte.zdm.omacp
+
+if daring:
+
+emode
