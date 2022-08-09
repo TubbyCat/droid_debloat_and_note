@@ -103,11 +103,12 @@ com.zte.privacypolicy
 
 cn.zte.recorder
 com.zte.weather
-com.zte.zdm.omacp
-com.zte.videoplayer
+com.zte.zdm.omacp     #still some question as to if breaks over the air related
+com.zte.videoplayer 
 com.zte.assistant
 com.zte.heartyservice.strategy
 com.zte.burntest.camera
 com.zte.contacts.sub
 com.zte.privacypolicy
 com.zte.beautify
+zpub.res
