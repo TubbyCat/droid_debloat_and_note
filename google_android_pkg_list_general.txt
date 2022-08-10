@@ -1,0 +1,2 @@
+## generalized list of google and android bloat packages. system-critical pkgs excluded. 
+
