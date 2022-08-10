@@ -2,9 +2,7 @@ com.google.android.apps.searchlite
   #google go lightweight search 
 
 zpub.res
-
 com.zte.zdm.omacp
-
-if daring:
-
-emode
+com.debug.loggerui
+com.zte.emode
+## all of the above removed without issue. 
