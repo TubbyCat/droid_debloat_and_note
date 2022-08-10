@@ -36,7 +36,6 @@ cn.zte.music
 com.zte.beautify
 cn.zte.recorder
 com.zte.weather
-com.zte.zdm.omacp          #some Qs about over-air breakage - needs testing
 com.zte.videoplayer
 com.zte.assistant
 com.zte.heartyservice.strategy
@@ -53,6 +52,9 @@ com.zte.backup.mmi  # untested on phys HW
 cn.com.zte.zxmreader
 com.zte.privacypolicy
 zpub.res
+com.debug.loggerui
+com.zte.emode
+com.zte.zdm.omacp          #some Qs about over-air breakage - needs testing
 )
 
 caution
