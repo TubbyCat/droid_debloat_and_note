@@ -32,3 +32,4 @@ echo "debloating com.google types"
 for x in ${google_list[@]}; do 
 adb shell pm uninstall --user 0 $x && echo $x >> com.google.debloated.$(date +"%m_%d_%Y").success
 done
+echo "com.google apk types removal = success."
