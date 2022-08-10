@@ -1,7 +1,7 @@
 #Copyright © 2022-2023 TubbyCat
 #MIT and CREDIT files for elaborated copyright.
 #!/bin/env bash
-
+# COMMENT OUT LINES: 8,17,22,25, IF VISION IMPAIRED OR OTHERWISE USE ACCESSIBILITY FEATURES.
 google_list=( 
  com.google.android.youtube
  com.google.android.apps.cameralite
