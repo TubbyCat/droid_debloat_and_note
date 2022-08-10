@@ -1,0 +1,53 @@
+# list of android + google pkgs nonspecific to system(s) 
+# wip
+
+##com.google
+
+
+
+
+
+## com.android
+
+
+
+
+
+
+## irrelevant drivel 
+
+  #You will have to delete themes manually, as it's entirely subjective. 
+  
+android_themes=(
+com.android.theme.icon.vessel
+com.android.theme.color.cinnamon
+com.android.theme.icon_pack.rounded.systemui
+com.android.theme.icon.pebble
+com.android.theme.icon.taperedrect
+com.android.theme.icon_pack.rounded.android
+com.android.theme.icon_pack.circular.themepicker
+com.android.theme.color.black
+com.android.theme.color.green
+com.android.theme.color.ocean
+com.android.theme.color.space
+com.android.theme.icon_pack.rounded.launcher
+com.android.theme.icon_pack.filled.settings
+com.android.theme.icon_pack.circular.settings
+com.android.theme.icon.teardrop
+com.android.theme.icon_pack.rounded.themepicker
+com.android.theme.icon_pack.filled.systemui
+com.android.theme.font.notoserifsource
+com.android.theme.icon_pack.filled.android
+com.android.theme.icon_pack.circular.systemui
+com.android.theme.icon.squircle
+com.android.theme.icon_pack.filled.launcher
+com.android.theme.icon_pack.circular.launcher
+com.android.theme.icon_pack.filled.themepicker
+com.android.theme.color.orchid
+com.android.theme.color.purple
+com.android.theme.icon_pack.rounded.settings
+com.android.theme.icon_pack.circular.android
+)
+
+# malarkey - delete on sight
+com.android.egg #unironically the tech world's worst easter egg
