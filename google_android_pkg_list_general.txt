@@ -1,2 +1,23 @@
 ## generalized list of google and android bloat packages. system-critical pkgs excluded. 
 
+///// ad-hoc abbreviations /////
+  
+  XX  = remove if expert, breakage highly likely 
+  xx+ = removal with possibility of breakage
+  xx  = removal reccomended 
+  ??  = exact function undetermined by author
+  
+#com.google 
+
+
+#com.android 
+
+
+com.android.aftersaleservice
+  # xx+ ?? 
+
+com.android.bluetoothmidiservice
+  # xx+ ; bluetooth midi keyboard service
+
+
+
