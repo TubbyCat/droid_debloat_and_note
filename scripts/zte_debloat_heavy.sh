@@ -62,4 +62,4 @@ caution
 for x in ${rmv_list[@]}; do
 adb shell pm uninstall --user 0 $x && echo $x >> zte_pkg.heavy.debloated.$(date +"%m_%d_%Y-%T").success
 done
-echo "COMPLETED ZTE HEAVY DEBLOAT. Check working directory for zte_pkg.debloated.success"
+echo "COMPLETED ZTE HEAVY DEBLOAT. Check working directory for zte_pkg.heavy.debloated.theDate.success"
