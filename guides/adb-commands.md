@@ -2,7 +2,7 @@ Copyright © 2022-2023 TubbyCat
 
 See CREDIT and MIT files for elaborated copyright information.
 
-# Debloat ADB Commands, Explained
+# Android Debug Bridge Commands for Debloating, Explained. 
 This is a summary. The upstream documentation, in my opinion, is needlessly dense and could have been better written by a gibbon fed a steady diet of beatings and neurotoxic research pharmaceuticals.
 > NOTE: Gather info on a package prior to removal. Backup all extant packages and settings prior to execution of adb
 
