@@ -60,6 +60,6 @@ com.zte.zdm.omacp          #some Qs about over-air breakage - needs testing
 
 caution
 for x in ${rmv_list[@]}; do
-adb shell pm uninstall --user 0 $x && echo $x >> zte_pkg.debloated.$(date +"%m_%d_%Y-%T").success
+adb shell pm uninstall --user 0 $x && echo $x >> zte_pkg.heavy.debloated.$(date +"%m_%d_%Y-%T").success
 done
 echo "COMPLETED ZTE HEAVY DEBLOAT. Check working directory for zte_pkg.debloated.success"
