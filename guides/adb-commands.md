@@ -9,9 +9,9 @@ This is a summary. The upstream documentation, in my opinion, is needlessly dens
 **TO USE:** Download android debug bridge on PC (or equivalent) and enable developer-mode + debug bridge on android device
   - If you cannot figure out the above, pay someone to do all this for you -- preferably not someone standing in an alley wearing a tan tenchcoat. Your phone will last longer.
   
-***Following commands are essential for android debloat and consequent install of desired software.***
+***The following commands are essential for android debloat and consequent install of desired software.***
 
-**Note:** For all commands listed bellow "adb shell" can be excluded if you are already inside your phone's commandline shell and are executing commands therein.
+**Note:** For all commands listed bellow "adb shell" can be _excluded_ if you are already inside your phone's commandline shell and are executing commands therein.
 
 Adb shell $command is useful for scripts executed outside of the phone's shell.
 
@@ -43,6 +43,11 @@ Adb shell $command is useful for scripts executed outside of the phone's shell.
   ```sh
   adb shell pm path com.foo.bar
   ```
+- **List users on a system**
+  ```sh  
+    adb shell pm list users   # executed outside phone's shell. Preferable for scripts.
+    pm list users             # executed within phone's shell
+   ```
 ## Uninstalling Packages ##
 ```sh
 adb shell pm uninstall --user 0
@@ -76,5 +81,5 @@ adb shell dumpsys package com.foo.bar | grep $ofinterest #accepts regex
 ```
 
 - Again, this is a summary. 
-- Fun fact, you can checksum packages inside the adb shell, albeit SELinux seems to prevent outputting checksums of priv'd directories such as /system/bin/ to a textfile owned by the user. 
+- Fun fact, you can checksum packages inside the adb shell, albeit SELinux seems to prevent outputting checksums of priv'd directories such as /system/bin/ to a text file owned by the user. 
   - may be useful for comparing checksums of binaries to malware databases if so desired.
