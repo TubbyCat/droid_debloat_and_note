@@ -1,0 +1,449 @@
+#md5sums pulled from /system/bin as unprivileged user. Will escalate privilege later for further dump. 
+# worth noting the following files of interest, as selinux prevents checksum (perhaps due to custom policy) paired with their being shell scripts. 
+# see elsewhere in this repo for link(s) to history of ZTE hiding backdoor in /system/bin/
+
+# non comprehensive list of items to be explored following priv esc: 
+
+./collectusage.sh: Permission denied
+./connsyslogger: Permission denied
+./controlspeciallog.sh: Permission denied
+./disable_ztelog.sh: Permission denied
+./enable_ztelog.sh:  ""
+md5sum: ./getjuphoonlog.sh: Permission denied
+md5sum: ./getlogtofile.sh: Permission denied
+md5sum: ./getoffchargerlogtofile: Permission denied
+
+------- START --------
+3f0f02baf89847895817fdc7f2a2b4b9  ./AudioSetParam
+a64e41ef11f2e497ebbac9ce0f559e4b  ./abb
+7e409c8ce635e4380f8fea51407eaea9  ./acpi
+a8ad97bc4d2094b32ac7db6515c6707f  ./am
+md5sum: ./apexd: Permission denied
+e6587137de944ec65850608d2c1be4e2  ./app_process
+e6587137de944ec65850608d2c1be4e2  ./app_process32
+6586e823514d3fabc07c545acb6db077  ./appops
+21940389848bd721476de488bdad091e  ./appwidget
+md5sum: ./atci_service_sys: Permission denied
+860bb276f4b8ca7ac9064aa377daddca  ./atrace
+md5sum: ./atrace2: Permission denied
+md5sum: ./audioserver: Permission denied
+md5sum: ./auditctl: Permission denied
+1665902949782de119c7d5690d86cd4e  ./awk
+1f116ce21c9227c472890ff483134c36  ./badblocks
+7e409c8ce635e4380f8fea51407eaea9  ./base64
+7e409c8ce635e4380f8fea51407eaea9  ./basename
+be9577a8d9c89374cc556190a582f427  ./bc
+57a45383f28773b05eee3f09a3c062a0  ./bcc
+md5sum: ./blank_screen: Permission denied
+md5sum: ./blkid: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./blockdev
+d7b15401e98ebc811e088d4de7e3d1c6  ./bmgr
+md5sum: ./boot_logo_updater: Permission denied
+md5sum: ./bootanimation: Permission denied
+md5sum: ./bootservice: Permission denied
+md5sum: ./bootstat: Permission denied
+d41d8cd98f00b204e9800998ecf8427e  ./bootstrap
+md5sum: ./boringssl_self_test32: Permission denied
+md5sum: ./bpfloader: Permission denied
+e842efa9f481e5505c9af8daaafd3742  ./bu
+dd65ec950df39fe5bc0fb45ca548bbc0  ./bugreport
+fa7feee6319f05eed96d0c5a022efc53  ./bugreportz
+3e3e3dde694cde72de1451ecc2d1de03  ./bunzip2
+3e3e3dde694cde72de1451ecc2d1de03  ./bzcat
+3e3e3dde694cde72de1451ecc2d1de03  ./bzip2
+7e409c8ce635e4380f8fea51407eaea9  ./cal
+md5sum: ./camerapostalgo: Permission denied
+md5sum: ./cameraserver: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./cat
+fb41f2ce5689a73ddcb448ee49609f92  ./charge_disable.sh
+md5sum: ./charger: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./chattr
+7e409c8ce635e4380f8fea51407eaea9  ./chcon
+f412149a11dc80ec05561bab9794b4e9  ./check_charge_disable.sh
+7e409c8ce635e4380f8fea51407eaea9  ./chgrp
+7e409c8ce635e4380f8fea51407eaea9  ./chmod
+7e409c8ce635e4380f8fea51407eaea9  ./chown
+7e409c8ce635e4380f8fea51407eaea9  ./chroot
+7e409c8ce635e4380f8fea51407eaea9  ./chrt
+7e409c8ce635e4380f8fea51407eaea9  ./cksum
+md5sum: ./clatd: Permission denied
+b9178c6f7c1f4e18d320bf95781589db  ./clean_scratch_files
+7e409c8ce635e4380f8fea51407eaea9  ./clear
+6cc6265d8cb4255b453e243adf3ed7d9  ./cmd
+md5sum: ./cmd_services: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./cmp
+md5sum: ./collectusage.sh: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./comm
+md5sum: ./connsyslogger: Permission denied
+d57fd992d74ee99767632f1f6c16f06f  ./content
+md5sum: ./controlspeciallog.sh: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./cp
+7e409c8ce635e4380f8fea51407eaea9  ./cpio
+md5sum: ./cppreopts.sh: Permission denied
+f925e0e958100b67f4e0a3a5d6af16ad  ./crash_dump32
+md5sum: ./credstore: Permission denied
+1bc08f217c4e59404be9706ed1eec52a  ./current_now.sh
+7e409c8ce635e4380f8fea51407eaea9  ./cut
+db99c50c385e64d54f5858ba14b0c43c  ./dalvikvm
+7e409c8ce635e4380f8fea51407eaea9  ./date
+7e409c8ce635e4380f8fea51407eaea9  ./dd
+50c5dc43c95b856de140a075c4d6324f  ./debuggerd
+md5sum: ./defrag.f2fs: Permission denied
+76c16144652bf19f3fc8d8fa7daaf4a5  ./device_config
+7e409c8ce635e4380f8fea51407eaea9  ./devmem
+md5sum: ./dex2oat: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./df
+7e409c8ce635e4380f8fea51407eaea9  ./diff
+7e409c8ce635e4380f8fea51407eaea9  ./dirname
+a25b0ac00e301e9090e5b3d7ab9048bd  ./disable-verity
+md5sum: ./disable_ztelog.sh: Permission denied
+3e64b5aedf6f1545bf99bde79f307351  ./dmctl
+7e409c8ce635e4380f8fea51407eaea9  ./dmesg
+md5sum: ./dnsmasq: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./dos2unix
+f09ccb9f05660cfa2a24a22d695bf17c  ./dpm
+md5sum: ./drmserver: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./du
+md5sum: ./dump.f2fs: Permission denied
+md5sum: ./dumpstate: Permission denied
+533710d97f2dc82f1c36e0d255b502d6  ./dumpsys
+md5sum: ./dumpsysmeminfo.sh: Permission denied
+md5sum: ./dumptrace.sh: Permission denied
+d61caf090c78851b99ce6f64531ed330  ./e2freefrag
+md5sum: ./e2fsck: Permission denied
+md5sum: ./e2fsdroid: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./echo
+7e409c8ce635e4380f8fea51407eaea9  ./egrep
+a25b0ac00e301e9090e5b3d7ab9048bd  ./enable-verity
+md5sum: ./enable_ztelog.sh: Permission denied
+d379451732ec570827c72b5cf2f51ed4  ./enter_lpm.sh
+7e409c8ce635e4380f8fea51407eaea9  ./env
+7e409c8ce635e4380f8fea51407eaea9  ./expand
+7e409c8ce635e4380f8fea51407eaea9  ./expr
+7e409c8ce635e4380f8fea51407eaea9  ./fallocate
+7e409c8ce635e4380f8fea51407eaea9  ./false
+7e409c8ce635e4380f8fea51407eaea9  ./fgrep
+7e409c8ce635e4380f8fea51407eaea9  ./file
+7e409c8ce635e4380f8fea51407eaea9  ./find
+md5sum: ./flags_health_check: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./flock
+7e409c8ce635e4380f8fea51407eaea9  ./fmt
+7e409c8ce635e4380f8fea51407eaea9  ./free
+410a1cdd22f430fcd1b5bca640685e07  ./fsck.exfat
+md5sum: ./fsck.f2fs: Permission denied
+md5sum: ./fsck.ntfs: Permission denied
+md5sum: ./fsck_msdos: Permission denied
+md5sum: ./fsverity_init: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./fsync
+md5sum: ./gatekeeperd: Permission denied
+7ca36fede362e15bf4f6e5a6fb0d98c2  ./get_tp_noise
+7e409c8ce635e4380f8fea51407eaea9  ./getconf
+7e409c8ce635e4380f8fea51407eaea9  ./getenforce
+b4578b5b141a92e4e41af7c1d2f51aaf  ./getevent
+md5sum: ./getjuphoonlog.sh: Permission denied
+md5sum: ./getlogtofile.sh: Permission denied
+md5sum: ./getoffchargerlogtofile: Permission denied
+6a4c4bdeafe33580d7b1e163b545fe37  ./getpowerinfo.sh
+b4578b5b141a92e4e41af7c1d2f51aaf  ./getprop
+md5sum: ./gpuservice: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./grep
+7e409c8ce635e4380f8fea51407eaea9  ./groups
+8d1511f9c91dd3a485a45ab89cb6a0e8  ./gsi_tool
+md5sum: ./gsid: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./gunzip
+7e409c8ce635e4380f8fea51407eaea9  ./gzip
+7e409c8ce635e4380f8fea51407eaea9  ./head
+md5sum: ./heapprofd: Permission denied
+46bda1423c44272f343ce306a8fd093a  ./hid
+7e409c8ce635e4380f8fea51407eaea9  ./hostname
+d41d8cd98f00b204e9800998ecf8427e  ./hw
+7e409c8ce635e4380f8fea51407eaea9  ./hwclock
+md5sum: ./hwservicemanager: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./i2cdetect
+7e409c8ce635e4380f8fea51407eaea9  ./i2cdump
+7e409c8ce635e4380f8fea51407eaea9  ./i2cget
+7e409c8ce635e4380f8fea51407eaea9  ./i2cset
+7e409c8ce635e4380f8fea51407eaea9  ./iconv
+7e409c8ce635e4380f8fea51407eaea9  ./id
+md5sum: ./idmap2: Permission denied
+md5sum: ./idmap2d: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./ifconfig
+b30dcaeedc888814a2a0cccd5a209720  ./ime
+bcdf474855cb3ea9bd16042cca06c0d3  ./incident
+248897874c7a76bdab9189b6304bced9  ./incident-helper-cmd
+md5sum: ./incident_helper: Permission denied
+md5sum: ./incidentd: Permission denied
+md5sum: ./init: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./inotifyd
+e44592a0db0e4419ce41339c54c23f20  ./input
+7e409c8ce635e4380f8fea51407eaea9  ./insmod
+7e409c8ce635e4380f8fea51407eaea9  ./install
+md5sum: ./installd: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./ionice
+4469a3fc75afa2fe2d91cdda2807bc40  ./iorap.cmd.compiler
+1ceb870758d9025832903c90463715ce  ./iorap.cmd.maintenance
+md5sum: ./iorap.inode2filename: Permission denied
+md5sum: ./iorap.prefetcherd: Permission denied
+md5sum: ./iorapd: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./iorenice
+83ad9b3da8e812931e2ab7115224358f  ./iotop
+a73c3b1901d05357ed4efee4129e8700  ./ip
+md5sum: ./ip-wrapper-1.0: Permission denied
+72a50ff926a6d643485c62dafa5be749  ./ip6tables
+72a50ff926a6d643485c62dafa5be749  ./ip6tables-restore
+72a50ff926a6d643485c62dafa5be749  ./ip6tables-save
+md5sum: ./ip6tables-wrapper-1.0: Permission denied
+72a50ff926a6d643485c62dafa5be749  ./iptables
+72a50ff926a6d643485c62dafa5be749  ./iptables-restore
+72a50ff926a6d643485c62dafa5be749  ./iptables-save
+md5sum: ./iptables-wrapper-1.0: Permission denied
+md5sum: ./keystore: Permission denied
+4781f37dd3cf64ac981c9adadcb8606c  ./keystore_cli_v2
+7e409c8ce635e4380f8fea51407eaea9  ./kill
+7e409c8ce635e4380f8fea51407eaea9  ./killall
+md5sum: ./lbs_dbg: Permission denied
+e6b526d7a0405c1f9021acfb86495047  ./lcdc_screen_cap
+41f309e6803d4a5bd714057733ee4fe6  ./ld.mc
+d26b4c4c3c8df1e38729915f0474ec06  ./ldd
+d7f3c3b8c900e88c0c1b288c2d74f858  ./librank
+801657394ef07fb3276ad0aef3b08ee6  ./linker
+801657394ef07fb3276ad0aef3b08ee6  ./linker_asan
+md5sum: ./linkerconfig: Permission denied
+md5sum: ./lmkd: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./ln
+7e409c8ce635e4380f8fea51407eaea9  ./load_policy
+9564b7581d099cd8e1ff07f81cc7fae4  ./locksettings
+7e409c8ce635e4380f8fea51407eaea9  ./log
+a7977bc607bab93a1e2ddd699817a24a  ./logcat
+md5sum: ./logcontrol: Permission denied
+md5sum: ./logd: Permission denied
+md5sum: ./loghidlsysservice: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./logname
+50350d71d4b2ddd81b607bd929d759fd  ./logwrapper
+7e409c8ce635e4380f8fea51407eaea9  ./losetup
+3e204d165a409f56195ec2fed2cbc2a4  ./lpdump
+md5sum: ./lpdumpd: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./ls
+7e409c8ce635e4380f8fea51407eaea9  ./lsattr
+7e4125cad6ef7eae7cbad309cf3eb215  ./lshal
+7e409c8ce635e4380f8fea51407eaea9  ./lsmod
+7e409c8ce635e4380f8fea51407eaea9  ./lsof
+7e409c8ce635e4380f8fea51407eaea9  ./lspci
+7e409c8ce635e4380f8fea51407eaea9  ./lsusb
+md5sum: ./make_f2fs: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./md5sum
+md5sum: ./mdnsd: Permission denied
+md5sum: ./mediaextractor: Permission denied
+md5sum: ./mediametrics: Permission denied
+md5sum: ./mediaserver: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./microcom
+md5sum: ./migrate_legacy_obb_data.sh: Permission denied
+6d407d9a2f935fb3e6f39cd7d26231ee  ./mini-keyctl
+7e409c8ce635e4380f8fea51407eaea9  ./mkdir
+md5sum: ./mke2fs: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./mkfifo
+410a1cdd22f430fcd1b5bca640685e07  ./mkfs.exfat
+md5sum: ./mkfs.ext2: Permission denied
+md5sum: ./mkfs.ext3: Permission denied
+md5sum: ./mkfs.ext4: Permission denied
+5263b7c261bd5feebf7ec84204f5037b  ./mkfs.ntfs
+7e409c8ce635e4380f8fea51407eaea9  ./mknod
+7e409c8ce635e4380f8fea51407eaea9  ./mkswap
+7e409c8ce635e4380f8fea51407eaea9  ./mktemp
+md5sum: ./mobile_log_d: Permission denied
+md5sum: ./modemdbfilter_client: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./modinfo
+b4578b5b141a92e4e41af7c1d2f51aaf  ./modprobe
+984f7fc82f48234273688eb595d5a80b  ./monkey
+7e409c8ce635e4380f8fea51407eaea9  ./more
+7e409c8ce635e4380f8fea51407eaea9  ./mount
+410a1cdd22f430fcd1b5bca640685e07  ./mount.exfat
+08602a8e8c14c931b776f6ffd5f8fbe1  ./mount.ntfs
+7e409c8ce635e4380f8fea51407eaea9  ./mountpoint
+c5742e13e3bce5e1d77a69b3bdf491ed  ./move_widevine_data.sh
+md5sum: ./mtk_plpath_utils: Permission denied
+md5sum: ./mtpd: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./mv
+7e409c8ce635e4380f8fea51407eaea9  ./nc
+a5760f958955f265957cfde76df7a19f  ./ndc
+md5sum: ./ndc-wrapper-1.0: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./netcat
+md5sum: ./netd: Permission denied
+md5sum: ./netdiag: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./netstat
+md5sum: ./netutils-wrapper-1.0: Permission denied
+6e34ed7dd5cd7129d7f603d99ff5072c  ./newfs_msdos
+7e409c8ce635e4380f8fea51407eaea9  ./nice
+7e409c8ce635e4380f8fea51407eaea9  ./nl
+7e409c8ce635e4380f8fea51407eaea9  ./nohup
+d8dcfd81d42c491cd0d21381caf9f092  ./notify_traceur.override.sh
+7e409c8ce635e4380f8fea51407eaea9  ./nproc
+7e409c8ce635e4380f8fea51407eaea9  ./nsenter
+7e409c8ce635e4380f8fea51407eaea9  ./od
+5d3e6d45129f655125bc78d4df2bf38b  ./oem-iptables-init.sh
+b436809ccf8c49a62dd0338a24052af9  ./otapreopt
+md5sum: ./otapreopt_chroot: Permission denied
+12f20978618489a3ac58cb089c543533  ./otapreopt_script
+md5sum: ./otapreopt_slot: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./paste
+7e409c8ce635e4380f8fea51407eaea9  ./patch
+e25399fcf92857ba8d917594eacb83ff  ./perfetto
+7e409c8ce635e4380f8fea51407eaea9  ./pgrep
+7e409c8ce635e4380f8fea51407eaea9  ./pidof
+01f17bfec532c23dc1f3002b892b1254  ./ping
+45aa3bfce49ddf6a0ec18747da8d3b78  ./ping6
+7e409c8ce635e4380f8fea51407eaea9  ./pkill
+ad18e38b44b0f9d47f12bbe9e25c15a6  ./pm
+0bc7f6ee12630ad5bb1fd68b70842259  ./pm_fullload_recovery.sh
+34f3e653f4f94f3eaf27d0569b823dc2  ./pm_fullload_test.sh
+7e409c8ce635e4380f8fea51407eaea9  ./pmap
+md5sum: ./pppd: Permission denied
+md5sum: ./preloads_copy.sh: Permission denied
+md5sum: ./preopt2cachename: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./printenv
+7e409c8ce635e4380f8fea51407eaea9  ./printf
+35ace4caf859d2f1d726969794b2c635  ./procrank
+7e409c8ce635e4380f8fea51407eaea9  ./ps
+7e409c8ce635e4380f8fea51407eaea9  ./pwd
+f7d6fffedf41037050df76a2303d37f8  ./quit_lpm.sh
+md5sum: ./racoon: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./readelf
+7e409c8ce635e4380f8fea51407eaea9  ./readlink
+7e409c8ce635e4380f8fea51407eaea9  ./realpath
+26773d0fe420e76b719ce5af7d35c53a  ./reboot
+md5sum: ./recovery-persist: Permission denied
+md5sum: ./recovery-refresh: Permission denied
+f02eb8ba5b786b4a1107a2a3214a3782  ./remount
+7e409c8ce635e4380f8fea51407eaea9  ./renice
+855eb9778d01a9f2f4c10cd92b0ebe0d  ./requestsync
+md5sum: ./resize.f2fs: Permission denied
+md5sum: ./resize2fs: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./restorecon
+7e409c8ce635e4380f8fea51407eaea9  ./rm
+7e409c8ce635e4380f8fea51407eaea9  ./rmdir
+7e409c8ce635e4380f8fea51407eaea9  ./rmmod
+md5sum: ./rss_hwm_reset: Permission denied
+ac6500992258c2ecd58082e57dc76a4a  ./run-as
+7e409c8ce635e4380f8fea51407eaea9  ./runcon
+6a43bd81d378e5a3629c48dd35361577  ./schedtest
+6a74212f9b1218ee48acba6f0735483a  ./screencap
+d2f5cda0c5b99d85b383368506873f50  ./screenrecord
+md5sum: ./sdcard: Permission denied
+b4ed17f1fafb86a8ddab68f1a9850c14  ./secdiscard
+md5sum: ./secilc: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./sed
+7e409c8ce635e4380f8fea51407eaea9  ./sendevent
+e6572f89ead89898dd7b2d8110b2579f  ./sensorservice
+7e409c8ce635e4380f8fea51407eaea9  ./seq
+eafe211b889d9650fb875c9846700dca  ./service
+md5sum: ./servicemanager: Permission denied
+a25b0ac00e301e9090e5b3d7ab9048bd  ./set-verity-state
+7e409c8ce635e4380f8fea51407eaea9  ./setenforce
+b4578b5b141a92e4e41af7c1d2f51aaf  ./setprop
+7e409c8ce635e4380f8fea51407eaea9  ./setsid
+403c8cc9adb96f0ba3344f10fdafabf8  ./settings
+md5sum: ./sgdisk: Permission denied
+799c6d0ea714abb953f212e6a7891665  ./sh
+7e409c8ce635e4380f8fea51407eaea9  ./sha1sum
+7e409c8ce635e4380f8fea51407eaea9  ./sha224sum
+7e409c8ce635e4380f8fea51407eaea9  ./sha256sum
+7e409c8ce635e4380f8fea51407eaea9  ./sha384sum
+7e409c8ce635e4380f8fea51407eaea9  ./sha512sum
+6f8bbc58f58561779e5724392ff63a55  ./show_cpu.sh
+cc47bec4ae92240d1e00dfa6489be70f  ./showmap
+6fd6bc23b6a6cf79b6168a28ed824851  ./simpleperf
+9e7492babd5acd3b7957f941f1bb7a4e  ./simpleperf_app_runner
+7e409c8ce635e4380f8fea51407eaea9  ./sleep
+md5sum: ./sload_f2fs: Permission denied
+455feb98661f66e426a748e3e21866fc  ./sm
+md5sum: ./snapshotctl: Permission denied
+e7110ccad1c2e64ee779cfef9e2470c8  ./snapshotwhenpull.sh
+7e409c8ce635e4380f8fea51407eaea9  ./sort
+7e409c8ce635e4380f8fea51407eaea9  ./split
+a0623cbf622b42aeeda9d83fb0da6998  ./ss
+b4578b5b141a92e4e41af7c1d2f51aaf  ./start
+md5sum: ./start_tracer.sh: Permission denied
+md5sum: ./startiotop.sh: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./stat
+b4578b5b141a92e4e41af7c1d2f51aaf  ./stop
+md5sum: ./storaged: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./strings
+7e409c8ce635e4380f8fea51407eaea9  ./stty
+md5sum: ./surfaceflinger: Permission denied
+3b3ba724ee7b9a091dbfe68c4910646c  ./svc
+7e409c8ce635e4380f8fea51407eaea9  ./swapoff
+7e409c8ce635e4380f8fea51407eaea9  ./swapon
+793467825f8a8ef934d55550b6275516  ./switch_usb_mode.sh
+7e409c8ce635e4380f8fea51407eaea9  ./sync
+7e409c8ce635e4380f8fea51407eaea9  ./sysctl
+7e409c8ce635e4380f8fea51407eaea9  ./tac
+7e409c8ce635e4380f8fea51407eaea9  ./tail
+7e409c8ce635e4380f8fea51407eaea9  ./tar
+7e409c8ce635e4380f8fea51407eaea9  ./taskset
+52b10ff15cd5ca2483668d5ed9d43050  ./tc
+md5sum: ./tc-wrapper-1.0: Permission denied
+md5sum: ./tcpdump: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./tee
+ce1fa2d4cffcbde791c076432a7b7af8  ./telecom
+md5sum: ./terservice: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./test
+md5sum: ./thermald: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./time
+7e409c8ce635e4380f8fea51407eaea9  ./timeout
+md5sum: ./tombstoned: Permission denied
+b4578b5b141a92e4e41af7c1d2f51aaf  ./toolbox
+7e409c8ce635e4380f8fea51407eaea9  ./top
+7e409c8ce635e4380f8fea51407eaea9  ./touch
+7e409c8ce635e4380f8fea51407eaea9  ./toybox
+7e409c8ce635e4380f8fea51407eaea9  ./tr
+md5sum: ./traced: Permission denied
+md5sum: ./traced_perf: Permission denied
+md5sum: ./traced_probes: Permission denied
+90e5434aebab6ff03bfe80d02d379cd4  ./trigger_perfetto
+7e409c8ce635e4380f8fea51407eaea9  ./true
+7e409c8ce635e4380f8fea51407eaea9  ./truncate
+7e409c8ce635e4380f8fea51407eaea9  ./tty
+md5sum: ./tune2fs: Permission denied
+e62ecd5201224e0eb5254bf16a20d40b  ./tzdatacheck
+md5sum: ./ueventd: Permission denied
+e6e579cd2f093f5953928c4d678627f0  ./uiautomator
+7e409c8ce635e4380f8fea51407eaea9  ./ulimit
+7e409c8ce635e4380f8fea51407eaea9  ./umount
+7e409c8ce635e4380f8fea51407eaea9  ./uname
+md5sum: ./uncrypt: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./uniq
+7e409c8ce635e4380f8fea51407eaea9  ./unix2dos
+7e409c8ce635e4380f8fea51407eaea9  ./unlink
+7e409c8ce635e4380f8fea51407eaea9  ./unshare
+f4a3356221125e16d66db12f83b1aa5c  ./unzip
+md5sum: ./update_engine: Permission denied
+md5sum: ./update_verifier: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./uptime
+md5sum: ./usbd: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./usleep
+7e409c8ce635e4380f8fea51407eaea9  ./uudecode
+7e409c8ce635e4380f8fea51407eaea9  ./uuencode
+7e409c8ce635e4380f8fea51407eaea9  ./uuidgen
+md5sum: ./vdc: Permission denied
+23f7116c334fcfb0c949e6a40181e8e3  ./vendorcfg
+md5sum: ./vendorcfgdeamon: Permission denied
+md5sum: ./viewcompiler: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./vmstat
+md5sum: ./vold: Permission denied
+md5sum: ./vold_prepare_subdirs: Permission denied
+be576c32ace9bc5ce46d805d0cab635a  ./vr
+md5sum: ./vtservice: Permission denied
+md5sum: ./wait_for_keymaster: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./watch
+md5sum: ./watchdogd: Permission denied
+7e409c8ce635e4380f8fea51407eaea9  ./wc
+7e409c8ce635e4380f8fea51407eaea9  ./which
+7e409c8ce635e4380f8fea51407eaea9  ./whoami
+md5sum: ./wificond: Permission denied
+7717e9021ef983a8ddaba14739742b6c  ./wm
+7e409c8ce635e4380f8fea51407eaea9  ./xargs
+7e409c8ce635e4380f8fea51407eaea9  ./xxd
+7e409c8ce635e4380f8fea51407eaea9  ./yes
+7e409c8ce635e4380f8fea51407eaea9  ./zcat
+f4a3356221125e16d66db12f83b1aa5c  ./zipinfo
+f4a3356221125e16d66db12f83b1aa5c  ./ziptool
