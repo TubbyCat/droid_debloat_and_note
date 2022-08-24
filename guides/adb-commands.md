@@ -11,7 +11,7 @@ This is a summary. The upstream documentation, in my opinion, is needlessly dens
   
 ***The following commands are essential for android debloat and consequent install of desired software.***
 
-**Note:** For all commands listed bellow "adb shell" can be _excluded_ if you are already inside your phone's commandline shell and are executing commands therein.
+**Note:** For commands listed bellow "adb shell" can be _excluded_ if you are already inside your phone's commandline shell and are executing commands therein.
 
 Adb shell $command is useful for scripts executed outside of the phone's shell.
 
@@ -111,7 +111,7 @@ _[optional_list_of_apks]_ as above = optional list of packages. Rendered irrelev
 ```sh
 adb backup -f filename.ab -all -obb -shared 
 ```
-## Restore a Backup. In Case of Oopsies ##
+## Restore a Backup. In Case of Oopsies. ##
 ```sh 
 adb restore filename
 e.g. adb restore backup.ab
@@ -121,5 +121,3 @@ e.g. adb restore backup.ab
 adb shell dumpsys package com.foo.bar
 adb shell dumpsys package com.foo.bar | grep $ofinterest #accepts regex
 ```
-
-Again, this is a summary. 
