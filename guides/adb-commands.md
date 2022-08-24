@@ -2,7 +2,7 @@ Copyright © 2022-2023 TubbyCat
 
 See CREDIT and MIT files for elaborated copyright information.
 
-# Android Debug Bridge Commands for Debloating, Explained. 
+# Android Debug Bridge Commands for Debloating. 
 This is a summary. The upstream documentation, in my opinion, is needlessly dense and could have been better written by a gibbon fed a steady diet of beatings and neurotoxic research pharmaceuticals.
 > NOTE: Gather info on a package prior to removal. Backup all extant packages and settings prior to execution of adb
 
@@ -74,12 +74,52 @@ adb install ./abc.apk
 adb -d install ./abc.apk
   #ideal for USB based android debug connection. 
 ```
+## Moving Data to and from your Phone ##
+```sh
+adb pull dirPhone dirPC
+#move data from dirPhone to dirPC. use full paths e.g. /home/Johnny/Desktop
+
+adb push dirPC dirPhone
+# move data from your pc to your phone
+```
+## Backing up your Phone ##
+  Can be done somewhat selectively using adb pull or if most of your data is on an SD card, simply copy that to 2° storage, depending upon your needs.
+
+  A traditional backup can be achieved using **"adb backup"**
+
+```sh
+adb backup [-f file] -apk/-noapk -obb/-noobb -shared/-noshared -all -system/-nosystem [optional_list_of_apks]
+
+```
+ **Opts:**
+  
+_-f_ file. Outputs backup to backup.ab, by default in current working directory
+  
+_-apk & -noapk(default)_ selects whether to backup installed packages
+  
+_-obb & -noobb(default)_ selects inclusion of apk expansion files associated with installed apps
+  
+_-shared & -noshared(default)_ whether to backup shared storage 
+  
+_-all_ backs up ALL installed apps
+  
+_-system & -nosystem_ selects backup of system apps. Subsumed by -all 
+  
+_[optional_list_of_apks]_ as above = optional list of packages. Rendered irrelevant by -all / -shared 
+
+**Recommended use for Pre-Debloat Backup**
+```sh
+adb backup -f filename.ab -all -obb -shared 
+```
+## Restore a Backup. In Case of Oopsies ##
+```sh 
+adb restore filename
+e.g. adb restore backup.ab
+```
 ## Package Analysis ##
 ```sh
 adb shell dumpsys package com.foo.bar
 adb shell dumpsys package com.foo.bar | grep $ofinterest #accepts regex
 ```
 
-- Again, this is a summary. 
-- Fun fact, you can checksum packages inside the adb shell, albeit SELinux seems to prevent outputting checksums of priv'd directories such as /system/bin/ to a text file owned by the user. 
-  - may be useful for comparing checksums of binaries to malware databases if so desired.
+Again, this is a summary. 
