@@ -14,5 +14,9 @@ An array of package lists, debloat scripts and notes for android.
 
   The aforesaid measure ought to be paired with prudent user behavior*, logging, intrusion-detection (if it exists for android), and ensuring SELinux (Mandatory Access Control) is enforcing on said device.
 
-
 *Admittedly much easier said than done imo. Try your best I suppose. 
+
+-----
+
+## [Convenient TL;DR on Debloat-Oriented ADB Commands](https://github.com/TubbyCat/droid_debloat_and_note/blob/main/guides/adb-commands.md) ##
+
