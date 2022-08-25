@@ -18,7 +18,7 @@ An array of package lists, debloat scripts and notes for android.
    
  
 
-*Admittedly much easier said than done. Try your best I suppose. 
+*Much easier said than done. Try your best I suppose. 
 
 -----
 
