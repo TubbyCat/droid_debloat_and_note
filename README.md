@@ -2,7 +2,7 @@ Copyright © 2022-2023 TubbyCat
 
 See MIT and CREDIT for copyright. 
 
-# TubbyCat's Android Security Notes
+# TubbyCat's Android Notes
 
 An array of package lists, debloat scripts and notes for android. 
 
