@@ -59,7 +59,7 @@ com.zte.privacypolicy
 zpub.res
 com.debug.loggerui
 com.zte.emode
-com.zte.zdm.omacp          #some Qs about over-air breakage - needs testing
+com.zte.zdm.omacp          # may harm OTA updates - needs testing
 )
 
 caution
