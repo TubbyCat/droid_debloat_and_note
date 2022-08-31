@@ -19,6 +19,9 @@ zte.com.market
 zte.com.cn.filer               # file mgr
 zte.com.game
 zte.com.cn.cloudnotepad
+com.qiyi.video                #Asian shows. src /etc/autolaunch_blacklist*.xml
+com.qiyi.video.zte
+com.sohu.inputmethod.sogou    # non-english input method. src /etc/autolaunch_blacklist*.xml
 com.zte.smartpay              #untested on phys HW
 cn.com.zte.app.redenvelope    # ""
 cn.com.zte.android.teamshare  #untested on phys HW
@@ -26,9 +29,10 @@ cn.com.zte.mobilemail
 com.baidu.BaiduMap.zte
 com.autonavi.minimap.carmode  
 org.zx.AuthComp               # untested, little record of existence
+com.ume.browser
 com.ume.browser.cust
 cuuca.sendfiles.Activity     # weshare
-cn.com.zte.app.zel            # untested, may be related to zlink 
+cn.com.zte.app.zel            # untested, may be related to "zlink"
 com.zte.camera
 com.zte.mirrorcamera
 com.zte.voicesecretary
@@ -47,7 +51,7 @@ cn.com.zte.tescobag   #unconfirmed
 zte.com.cn.jr.magzine #unconfirmed not a typo
 com.zte.positionenglish  # possibly gps related , unconfirmed, remove w caution
 com.zte.UserHelp
-com.zte.handservice
+com.zte.handservice  # not related to com.borat.handrelief, unfortunately
 com.zte.privacyzone
 com.zte.backup.mmi  # untested on phys HW 
 cn.com.zte.zxmreader
