@@ -1,4 +1,8 @@
 #md5sums pulled from /system/bin as unprivileged user. Will escalate privilege later for further dump. 
+# Note, above paused sept-2022 as mtk-su versions 22 and 23 failed to allow for privileged access. 
+  # Sources for above mtk-su are:
+  # https://forum.xda-developers.com/t/amazing-temp-root-for-mediatek-armv8-2020-08-24.3922213/
+  # https://github.com/JunioJsv/mtk-easy-su
 # worth noting the following files of interest, as selinux prevents checksum (perhaps due to custom policy) paired with their being shell scripts. 
 # see elsewhere in this repo for link(s) to history of ZTE hiding backdoor in /system/bin/
 
