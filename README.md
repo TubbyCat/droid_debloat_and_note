@@ -14,7 +14,7 @@ An array of package lists, debloat scripts and notes for android.
    
    Debloating ought to be paired with prudent user behavior*, logging, intrusion-detection (if it exists for android), and ensuring SELinux (Mandatory Access Control) is enforcing on said device.
    
-   Put another way, debloating a phone can be likened to a person with four appendices deciding to premptively get an appendectomy -- life is tough for a mutant. Their inflated chances of appendicitis is gone, but they can still die of a heart attack.
+   Put another way, debloating a phone can be likened to a person with four appendices deciding to premptively get an appendectomy -- life is tough for a mutant. Their inflated chance of appendicitis is gone, but they can still die of a heart attack.
    
  
 
