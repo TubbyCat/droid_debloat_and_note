@@ -2,7 +2,7 @@
 Copyright © 2022-2023 TubbyCat.
 See MIT and CREDIT for copyright.
 
-**TL;DR**
+**Summary of Procedure**
 -----
 1. Ensure device has unlocked bootloader. 
 2. Boot into fastboot via powerbutton + volume key wizardry
